@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input标签</title>
+</head>
+
+<body>
+  <form action="" method="POST" name="name1">
+    <label for="username">
+      用户名：<input type="text" id="username">
+    </label>
+    <br>
+    密 码：<input type="password"><br>
+    文 件：<input type="file"><br>
+    数 组：<input type="number" maxlength="2"><br>
+
+    <select name="address" id=""><br>
+      <option value="bj">北京</option>
+      <option value="sh" selected>上海</option>
+      <option value="cq">重庆</option>
+    </select><br>
+    <!-- 单选框和复选框的name都必须一致 -->
+    性 别：男<input type="radio" name="gender" value="female" checked> 女<input type="radio" name="gender" value="male"><br>
+    爱 好：足球<input type="checkbox" name="hobby" value="football"> 篮球<input type="checkbox" name="hobby"
+      value="basketball"><br>
+    <input type="submit" value="提交">
+    <input type="reset" value="重置">
+    <input type="button" value="发送验证码">
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+  </form>
+</body>
+
+</html>
