@@ -1,0 +1,16 @@
+.liwrapper {
+  width: 100%;
+}
+.span {
+  margin: 0 50px 0 60px;
+}
+.highlight {
+  background-color: gainsboro;
+}
+.gray {
+  background-color: white;
+}
+.disappear {
+  visibility: hidden;
+}
+/*# sourceMappingURL=./index.module.css.map */
