@@ -1,0 +1,13 @@
+.outer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.outer .wrapper {
+  width: 99px;
+  height: 120px;
+  border: solid 1px black;
+}
+.outer .wrapper .pic {
+  width: 99px;
+}
+/*# sourceMappingURL=./index.module.css.map */
